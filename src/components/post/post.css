@@ -1,0 +1,22 @@
+.card {
+    width:80vw;
+    min-width:300px;
+}
+
+.cardDiv{
+    display:flex;
+    justify-content: center;
+}
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+}
+
+.skill {
+    margin:5px;
+    border:solid 1px black;
+    padding:2px;
+    color:white;
+    background-color:rgb(197, 68, 90)
+}
