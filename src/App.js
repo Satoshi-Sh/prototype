@@ -1,5 +1,5 @@
 import './App.css';
-import Nav  from './components/nav/Nav';
+import Navigation  from './components/nav/Nav';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useState, useEffect } from 'react';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-       <Nav sticky='top' />
+       <Navigation sticky='top' />
        <Routes>
           <Route exact path='/' element= {<Homepage />} />
           <Route path='/login' element = {<Login />} />

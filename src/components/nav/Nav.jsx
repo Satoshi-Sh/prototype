@@ -2,6 +2,7 @@
 // https://react-bootstrap.github.io/components/navbar/
 
 import { Link, useNavigate } from "react-router-dom";
+import './nav.css'
 
 
 import Button from 'react-bootstrap/Button';
@@ -15,7 +16,7 @@ import {LinkContainer} from 'react-router-bootstrap'
 
 function Navigation() {
   return (
-    <>
+    <div className='bar'>
       {['md'].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
@@ -70,7 +71,7 @@ function Navigation() {
           </Container>
         </Navbar>
       ))}
-    </>
+    </div>
   );
 }
 
